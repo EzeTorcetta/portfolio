@@ -31,7 +31,7 @@ function App() {
       </nav>
       <section id='home' className='home'>
         <div className='homeContainer'>
-          <img src="src\public\perfil2.png" alt="none" />
+          <img src="public\perfil2.png" alt="none" />
           <div className='homeContent'>
             <h1>Full-Stack Developer</h1>
             <p>Hi, I'm Ezequiel Torcetta. A passionate Full-Stack Developer and Industrial Engineering student from Buenos Aires, Argentina 📍</p>
