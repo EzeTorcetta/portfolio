@@ -37,35 +37,35 @@ function App() {
             <p>Hi, I'm Ezequiel Torcetta. A passionate Full-Stack Developer and Industrial Engineering student from Buenos Aires, Argentina 📍</p>
             <div className='homeContent-links'>
               <a href="https://github.com/EzeTorcetta">
-                <img src="src\img\github.png" alt="none" />
+                <img src="github.png" alt="none" />
               </a>
               <a href="https://www.linkedin.com/in/ezetorcetta/">
-                <img src="src\img\linkedin.png" alt="none" />
+                <img src="linkedin.png" alt="none" />
               </a>
             </div>
             <div className='skillsContainer'>
               <p>Stack</p>
               <ul>
                 <li>
-                  <img src="src\img\js.png" alt="" />
+                  <img src="js.png" alt="" />
                 </li>
                 <li>
-                  <img src="src\img\html-5.png" alt="" />
+                  <img src="html-5.png" alt="" />
                 </li>
                 <li>
-                  <img src="src\img\css-3.png" alt="" />
+                  <img src="css-3.png" alt="" />
                 </li>
                 <li>
-                  <img src="src\img\node.png" alt="" />
+                  <img src="node.png" alt="" />
                 </li>
                 <li>
-                  <img src="src\img\redux.png" alt="" />
+                  <img src="redux.png" alt="" />
                 </li>
                 <li>
-                  <img src="src\img\react.png" alt="" />
+                  <img src="react.png" alt="" />
                 </li>
                 <li>
-                  <img src="src\img\postgres.png" alt="" />
+                  <img src="postgres.png" alt="" />
                 </li>
                 <li>
                   <img src="https://static-00.iconduck.com/assets.00/file-type-sequelize-icon-443x512-ck0z81j3.png" alt="" />
@@ -78,7 +78,7 @@ function App() {
       </section>
 
       <section id='about' className='about'>
-        <img src="src\img\about.jpg" alt="aboutimg" />
+        <img src="about.jpg" alt="aboutimg" />
         <div className='about-text'>
           <h2>About me</h2>
           <br />
