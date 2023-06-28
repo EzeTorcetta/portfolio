@@ -18,7 +18,7 @@ function App() {
         <h3>Ezequiel Torcetta</h3>
 
         <button onClick={toggleMenu} className='nav-button'>
-          <img src="\src\img\toggle.png" alt="" />
+          <img src="toggle.png" alt="" />
         </button>
 
         <ul className={ `ul-nav ${ menu ? 'isActive' : '' }` }>
