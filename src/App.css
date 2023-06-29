@@ -26,10 +26,10 @@ ul {
   list-style: none;
 }
 
-nav a:hover{
+ a:hover{
   color: #518bffc2;
 }
-nav a:active{
+ a:active{
     color: #0c5dffdb;
 
 }
@@ -165,6 +165,76 @@ p {
   width: 1.6rem;
 }
 
+.proyects {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.proyects img{
+  max-width: 35rem;
+  min-width: 15rem;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.proyect-content {
+  display: flex;
+  flex-wrap:wrap;
+  width: 100%;
+  height: auto;
+  padding: 8vh;
+  gap: 1rem;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.proyects a:hover{
+  opacity: 90%;
+}
+
+.about-text h2{
+  color: rgb(44, 132, 255);
+}
+
+.contact {
+  width: 100%;
+  height: auto;
+  padding: 8vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact a{
+  font-size: 1.3em;
+}
+
+.contact-content{
+  display: flex;
+  align-items: center;
+}
+
+.contact-content img {
+  border-radius: 10px;
+  margin: 1em;
+  padding: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+
+}
+
+.footer-links img{
+  width: 2em;
+  margin: 0 0.5em;
+
+}
+
 @media screen and (max-width: 692px) {
   
  
@@ -237,5 +307,15 @@ p {
   nav {
     font-size: 1rem;
     min-width: 290px;
+  }
+
+  .contact a {
+    font-size: 0.9rem;
+  }
+
+  .contact-content img{
+    width: 3em;
+    height: auto;
+    margin: 0 1px;
   }
 }

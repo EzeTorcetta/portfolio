@@ -4,12 +4,12 @@ import { useState } from 'react';
 
 function App() {
 
-  const [ menu , setMenu ] = useState( false )
+  const [menu, setMenu] = useState(false)
 
   const toggleMenu = () => {
-      setMenu( !menu )
+    setMenu(!menu)
   }
-  
+
 
   return (
     <div>
@@ -21,10 +21,10 @@ function App() {
           <img src="toggle.png" alt="" />
         </button>
 
-        <ul className={ `ul-nav ${ menu ? 'isActive' : '' }` }>
+        <ul className={`ul-nav ${menu ? 'isActive' : ''}`}>
           <li><a href='#home'>Home</a> </li>
           <li><a href='#about'>About</a></li>
-          <li><a href='"proyects'>Proyects</a></li>
+          <li><a href='#proyects'>Proyects</a></li>
           <li><a href='#contact'>Contact</a></li>
         </ul>
 
@@ -91,12 +91,49 @@ function App() {
 
 
       <section id='proyects' className='proyects'>
-
+        <div className='proyect-content'>
+          <div className='about-text'>
+          <h2>Booking app</h2>
+          <br />
+            <p>Hotel room reservation app with the possibility of posting hotels, which includes: authentication, searches, combined filtering, ordering, user banning, sending emails, reviews, payment platform, etc. </p>
+              <p>Built with React, Redux, Node, Express, PostgreSQL, Sequelize, CSS, Bootstrap, JavaScript and other libraries. </p>
+          </div>
+          <a href="https://casitasdelhornero.netlify.app/Home">
+          <img src="homecasitas.png" alt="homecasitas"  />
+          </a>
+        </div>
+        <div className='proyect-content'>
+          <div className='about-text'>
+          <h2>Videogames</h2>
+          <br />
+            <p>The project consists of a Single Page Application. Users will be able to search, sort and filter video games by name, genre, platform, see the detail and even create a video game!</p>
+            <p>Built with React, Redux, Node, Express, PostgreSQL, Sequelize, CSS and JavaScript. </p>          
+          </div>
+          <a href="https://videogames-proyect.up.railway.app/">
+          <img src="videogames.png" alt="landingvideoames" />
+          </a>
+        </div>
       </section>
 
 
-      <section id='contact' className='contact'></section>
-      <footer>Ln Github</footer>
+      <section id='contact' className='contact'>
+        <h2>Contact</h2>
+        <div className='contact-content'>
+          <img src="email2.png" alt="" />
+          <a href="mailto:ezequiel.torcetta.97@gmail.com">ezequiel.torcetta.97@gmail.com</a>
+        </div>
+      </section>
+
+      <footer>
+      <div className='footer-links'>
+              <a href="https://github.com/EzeTorcetta">
+                <img src="github.png" alt="none" />
+              </a>
+              <a href="https://www.linkedin.com/in/ezetorcetta/">
+                <img src="linkedin.png" alt="none" />
+              </a>
+            </div>
+      </footer>
     </div>
   )
 }
