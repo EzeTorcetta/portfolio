@@ -109,7 +109,7 @@ function App() {
             <p>The project consists of a Single Page Application. Users will be able to search, sort and filter video games by name, genre, platform, see the detail and even create a video game!</p>
             <p>Built with React, Redux, Node, Express, PostgreSQL, Sequelize, CSS and JavaScript. </p>          
           </div>
-          <a href="https://wearegamers.netlify.app//">
+          <a href="https://wearegamers.netlify.app/">
           <img src="videogames.png" alt="landingvideoames" />
           </a>
         </div>
