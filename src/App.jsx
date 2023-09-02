@@ -34,7 +34,7 @@ function App() {
           <img src="perfil2.png" alt="none" />
           <div className='homeContent'>
             <h1>Full-Stack Developer</h1>
-            <p>Hi, I'm Ezequiel Torcetta. A passionate Full-Stack Developer and Industrial Engineering student from Buenos Aires, Argentina 📍</p>
+            <p>Hi, I'm Ezequiel Torcetta. A passionate Full-Stack Developer and Software Engineering student from Buenos Aires, Argentina 📍</p>
             <div className='homeContent-links'>
               <a href="https://github.com/EzeTorcetta">
                 <img src="github.png" alt="none" />
